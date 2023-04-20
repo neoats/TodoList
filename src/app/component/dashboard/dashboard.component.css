@@ -3,6 +3,7 @@ body{
 }
 .page-container {
   background: #27282c;
+  border-radius: 10px;
 }
 #card1 {
   background-color: #1565c0;
@@ -12,4 +13,18 @@ body{
 
 #card1:hover {
   box-shadow: 0 0 20px 5px #1565c0;
+}
+
+#mainb
+{
+  border: 6px solid transparent;;
+  border-image: linear-gradient(150deg, #ff0000, #ff8000, #ffff00, #00ff00, #0000ff, #4b0082, #ee82ee) 1;
+  border-image-slice: 1;
+
+  --border-radius: 5px;
+
+  border-radius: var(--border-radius);
+
+  box-shadow: 0 0 10px 4px #1565c0;
+  transition: box-shadow 0.3s ease-in-out;
 }
