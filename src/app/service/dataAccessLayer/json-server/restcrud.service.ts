@@ -1,12 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Task } from '../model/task';
+import { Task } from '../../../model/task';
+import { TaskService } from '../Itask';
 
 @Injectable({
   providedIn: 'root',
 })
-export class CrudService {
+export class RestCrudService implements TaskService  {
   serviceURL : string ;
 
   constructor(private http : HttpClient) {

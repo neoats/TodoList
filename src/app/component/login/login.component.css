@@ -49,22 +49,13 @@ a
 a:hover
 {
   background: var(--clr);
-/*   background-color: #1565c0; */
   background-color: #ff1867;
-
   color:var(--clr);
   letter-spacing: 0.25em;
   box-shadow: 0 0 35px var(--clr);
   border-radius: 3px;
 }
-/* a:hover{
 
-    background-color:rgb(${Math.floor(Math.random() * 256)})
-    color:var(--clr);
-    letter-spacing: 0.25em;
-    box-shadow: 0 0 35px var(--clr);
-    border-radius: 3px;
-} */
 a:before
 {
   content:'';
@@ -74,7 +65,6 @@ a:before
 }
 a span
 {
-
 position:relative;
 z-index:1;
 }
